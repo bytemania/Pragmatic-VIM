@@ -1,0 +1,52 @@
+
+%epigraphs, title, thanks, toc, introduction
+
+% r.1 blank page
+\blankpage
+
+% v.2 epigraphs
+\newpage\thispagestyle{empty}
+\openepigraph{%
+The notion of using a modal command-oriented editor may seem a bit anachronistic at first glance, but Vim’s rich feature set and deep extensibility have made it an enduring choice among advanced computer users. It’s still a highly popular editor, especially among computer programmers, Web developers, scientists, and system administrators.
+}{Ryan Paul%, {\itshape Design, Form, and Chaos}
+}
+\vfill
+\openepigraph{%
+A designer knows that he has achieved perfection 
+not when there is nothing left to add, 
+but when there is nothing left to take away.
+}{Antoine de Saint-Exup\'{e}ry}
+\vfill
+\openepigraph{%
+\ldots the designer of a new system must not only be the implementor and the first 
+large-scale user; the designer should also write the first user manual\ldots 
+If I had not participated fully in all these activities, 
+literally hundreds of improvements would never have been made, 
+because I would never have thought of them or perceived 
+why they were important.
+}{Donald E. Knuth}
+
+% r.3 full title page
+\maketitle
+
+% r.5 contents
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+% r.7 dedication
+\cleardoublepage
+~\vfill
+\begin{doublespace}
+\noindent\fontsize{18}{22}\selectfont\itshape
+\nohyphenation
+Dedicado aos utilizadores que usam VIM por esse mundo fora e
+o muito obrigado a \emph{Bram Moolenaar}. Sem ele nada disto 
+seria possível. 
+\end{doublespace}
+\vfill
+\vfill
+
+\cleardoublepage

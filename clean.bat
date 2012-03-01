@@ -1,0 +1,11 @@
+del *.out
+del *~
+del *.lot
+del *.lof
+del *.toc
+del *.aux
+del *undo
+del *swp
+del *.pdf
+del *.dvi
+del *.log

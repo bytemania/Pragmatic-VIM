@@ -1,0 +1,24 @@
+\hypersetup{colorlinks}
+
+%portuguese support
+\usepackage[portuges]{babel}
+
+% Prints an epigraph and speaker in sans serif, all-caps type.
+\newcommand{\openepigraph}[2]{%
+  %\sffamily\fontsize{14}{16}\selectfont
+  \begin{fullwidth}
+  \sffamily\large
+  \begin{doublespace}
+  \noindent\allcaps{#1}\\% epigraph
+  \noindent\allcaps{#2}% author
+  \end{doublespace}
+  \end{fullwidth}
+}
+
+% Inserts a blank page
+\newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage}
+
+%watermark DRAFT
+\usepackage{draftwatermark}
+\SetWatermarkLightness{0.9}
+\SetWatermarkScale{1.2}
